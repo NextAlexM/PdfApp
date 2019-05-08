@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:PdfApp.Controls;assembly=PdfApp"
+             x:Class="PdfApp.Views.ItemsPage"
+              Title="{Binding Title}"
+             x:Name="BrowseItemsPage">
+
+    <controls:PdfWebView x:Name="WebView" Uri="BookPreview2-Ch18-Rel0417.pdf" />
+    
+</ContentPage>
